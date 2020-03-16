@@ -1,0 +1,23 @@
+﻿<Window x:Class="GM_Studio_2_Translate_Tool.EditingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GM_Studio_2_Translate_Tool"
+        mc:Ignorable="d"
+        Title="Janela de Edição de Idiomas" Height="480" Width="640">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="13*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <TextBox Grid.Row="0" Grid.Column="0" Text="C:\Program Files\GameMaker Studio 2" TextWrapping="NoWrap"/>
+        <Button Grid.Row="0" Grid.Column="1" Content="Aplicar" HorizontalAlignment="Right" Width="100"></Button>
+        <DataGrid Grid.Row="1" Grid.ColumnSpan="2" />
+
+    </Grid>
+</Window>
